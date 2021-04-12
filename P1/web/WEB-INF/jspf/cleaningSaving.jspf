@@ -1,0 +1,109 @@
+<%-- any content can be specified here e.g.: --%>
+<%@ page pageEncoding="UTF-8" %>
+
+<% 
+    //POO
+    if(session.getAttribute("PooP1")==null){
+        session.setAttribute("PooP1", "");
+    }
+    if(request.getParameter("PooP1")!=null){
+        session.setAttribute("PooP1", request.getParameter("PooP1"));
+    }
+    
+    if(session.getAttribute("PooP2")==null){
+        session.setAttribute("PooP2", "");
+    }
+    if(request.getParameter("PooP2")!=null){
+        session.setAttribute("PooP2", request.getParameter("PooP2"));
+    }
+    
+    //ES III
+    if(session.getAttribute("EsP1")==null){
+        session.setAttribute("EsP1", "");
+    }
+    if(request.getParameter("EsP1")!=null){
+        session.setAttribute("EsP1", request.getParameter("EsP1"));
+    }
+    
+    if(session.getAttribute("EsP2")==null){
+        session.setAttribute("EsP2", "");
+    }
+    if(request.getParameter("EsP2")!=null){
+        session.setAttribute("EsP2", request.getParameter("EsP2"));
+    }
+    
+    //SO II
+    if(session.getAttribute("SoP1")==null){
+        session.setAttribute("SoP1", "");
+    }
+    if(request.getParameter("SoP1")!=null){
+        session.setAttribute("SoP1", request.getParameter("SoP1"));
+    }
+    
+    if(session.getAttribute("SoP2")==null){
+        session.setAttribute("SoP2", "");
+    }
+    if(request.getParameter("SoP2")!=null){
+        session.setAttribute("SoP2", request.getParameter("SoP2"));
+    }
+    
+    //LP IV
+    if(session.getAttribute("LpP1")==null){
+        session.setAttribute("LpP1", "");
+    }
+    if(request.getParameter("LpP1")!=null){
+        session.setAttribute("LpP1", request.getParameter("LpP1"));
+    }
+    
+    if(session.getAttribute("LpP2")==null){
+        session.setAttribute("LpP2", "");
+    }
+    if(request.getParameter("LpP2")!=null){
+        session.setAttribute("LpP2", request.getParameter("LpP2"));
+    }
+    
+    //MPCT
+    if(session.getAttribute("MpctP1")==null){
+        session.setAttribute("MpctP1", "");
+    }
+    if(request.getParameter("MpctP1")!=null){
+        session.setAttribute("MpctP1", request.getParameter("MpctP1"));
+    }
+    
+    if(session.getAttribute("MpctP2")==null){
+        session.setAttribute("MpctP2", "");
+    }
+    if(request.getParameter("MpctP2")!=null){
+        session.setAttribute("MpctP2", request.getParameter("MpctP2"));
+    }
+    
+    //SI
+    if(session.getAttribute("SiP1")==null){
+        session.setAttribute("SiP1", "");
+    }
+    if(request.getParameter("SiP1")!=null){
+        session.setAttribute("SiP1", request.getParameter("SiP1"));
+    }
+    
+    if(session.getAttribute("SiP2")==null){
+        session.setAttribute("SiP2", "");
+    }
+    if(request.getParameter("SiP2")!=null){
+        session.setAttribute("SiP2", request.getParameter("SiP2"));
+    }
+    
+    //BD
+    if(session.getAttribute("BdP1")==null){
+        session.setAttribute("BdP1", "");
+    }
+    if(request.getParameter("BdP1")!=null){
+        session.setAttribute("BdP1", request.getParameter("BdP1"));
+    }
+    
+    if(session.getAttribute("BdP2")==null){
+        session.setAttribute("BdP2", "");
+    }
+    if(request.getParameter("BdP2")!=null){
+        session.setAttribute("BdP2", request.getParameter("BdP2"));
+    }
+%>
